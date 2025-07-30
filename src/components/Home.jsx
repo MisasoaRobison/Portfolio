@@ -47,7 +47,7 @@ function Home() {
               </a>
             </li>
             <li>
-              <strong style={{fontFamily: 'cursive'}}>LinkedIn:</strong>{" "}
+              <strong style={{fontFamily: 'cursive'}}>LinkedInn:</strong>{" "}
               <a
                 href="https://www.linkedin.com/in/misasoa-robison-6494812a2/"
                 style={styles.link}
