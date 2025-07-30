@@ -21,77 +21,77 @@ function AboutMe() {
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/Portfolio/public/C.png" alt="C" style={{width: '85%', borderRadius:'10px', alignItems:'center',
+                <img src="/Portfolio/C.png" alt="C" style={{width: '85%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/public/javascript.png" alt="JavaScript" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/Portfolio/javascript.png" alt="JavaScript" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/public/HTML.png" alt="HTML" style={{width: '85%', borderRadius:'10px', alignItems:'center', marginTop:'10px',
+                <img src="/Portfolio/HTML.png" alt="HTML" style={{width: '85%', borderRadius:'10px', alignItems:'center', marginTop:'10px',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/public/Java.png" alt="Java" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/Portfolio/Java.png" alt="Java" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/public/Node_express.png" alt="Node+Express" style={{width: '100%', borderRadius:'10px', alignItems:'center', marginTop: '20px',
+                <img src="/Portfolio/Node_express.png" alt="Node+Express" style={{width: '100%', borderRadius:'10px', alignItems:'center', marginTop: '20px',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/public/React.png" alt="React" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/Portfolio/React.png" alt="React" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/public/css.png" alt="css" style={{width: '60%', borderRadius:'10px', alignItems:'center', marginTop: '10px',
+                <img src="/Portfolio/css.png" alt="css" style={{width: '60%', borderRadius:'10px', alignItems:'center', marginTop: '10px',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/public/mysql.png" alt="SQL" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/Portfolio/mysql.png" alt="SQL" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/public/github.png" alt="github" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/Portfolio/github.png" alt="github" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/public/git.png" alt="git" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/Portfolio/git.png" alt="git" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/public/vscode.png" alt="vscode" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/Portfolio/vscode.png" alt="vscode" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/public/OCaml.png" alt="OCaml" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/Portfolio/OCaml.png" alt="OCaml" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/public/assembly.png" alt="assembly" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/Portfolio/assembly.png" alt="assembly" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/public/docker.png" alt="docker" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/Portfolio/docker.png" alt="docker" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/public/microsoft.png" alt="microsoft" style={{width: '70%', borderRadius:'10px', alignItems:'center', marginTop: '10px',
+                <img src="/Portfolio/microsoft.png" alt="microsoft" style={{width: '70%', borderRadius:'10px', alignItems:'center', marginTop: '10px',
                 objectFit:'cover'
                 }}/>
             </div>

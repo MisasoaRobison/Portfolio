@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import AboutMe from './components/AboutMe';
 import Studies from './components/Studies';
-import Contact from './components/Contact';
+import CV from './components/CV'; // Assuming CV is the component for the CV section
 import './App.css'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <title>Home</title>
-    <BrowserRouter>
+    <BrowserRouter basename='/Portfolio'>
     <div className='App'>
       <Navbar />
         <Routes>
@@ -21,7 +21,7 @@ function App() {
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/mystudies" element={<Studies />} />
           <Route path="/myprojects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/CV" element={<CV />} />
         </Routes>
       </div>
     </BrowserRouter>

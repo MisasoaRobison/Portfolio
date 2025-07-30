@@ -9,7 +9,7 @@ function Navbar() {
         <li><Link to="/aboutme" style={styles.a}>About Me</Link></li>
         <li><Link to="/mystudies" style={styles.a}>Studies</Link></li>
         <li><Link to="/myprojects" style={styles.a}>Projects</Link></li>
-        <li><Link to="/contact" style={styles.a}>Contact</Link></li>
+        <li><Link to="/cv" style={styles.a}>CV</Link></li>
       </ul>
     </nav>
   );
