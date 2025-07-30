@@ -6,7 +6,7 @@ function Home() {
       <div style={styles.container}>
         {/* Colonne image */}
         <img
-          src="/public/welcome1.jpg" // Remplace par ton image
+          src="/Portfolio/welcome1.jpg" // Remplace par ton image
           alt="Welcome"
           style={styles.image}
         />
@@ -30,13 +30,13 @@ function Home() {
 
           <ul style={styles.list}>
             <li>
-              <strong>Email:</strong>{" "}
+              <strong style={{fontFamily: 'cursive'}}>Email:</strong>{" "}
               <a href="mailto:misasoaa.robison@gmail.com" style={styles.link}>
                 misasoaa.robison@gmail.com
               </a>
             </li>
             <li>
-              <strong>GitHub:</strong>{" "}
+              <strong style={{fontFamily: 'cursive'}}>GitHub:</strong>{" "}
               <a
                 href="https://github.com/MisasoaRobison"
                 style={styles.link}
@@ -47,7 +47,7 @@ function Home() {
               </a>
             </li>
             <li>
-              <strong>LinkedIn:</strong>{" "}
+              <strong style={{fontFamily: 'cursive'}}>LinkedIn:</strong>{" "}
               <a
                 href="https://www.linkedin.com/in/misasoa-robison-6494812a2/"
                 style={styles.link}

@@ -16,12 +16,12 @@ function AboutMe() {
         justifyContent: 'center',
       }}>
             <div style={styles.imagecard}>
-                <img src="/public/python.png" alt="Python" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/Portfolio/python.png" alt="Python" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="/public/C.png" alt="C" style={{width: '85%', borderRadius:'10px', alignItems:'center',
+                <img src="/Portfolio/public/C.png" alt="C" style={{width: '85%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
