@@ -16,82 +16,82 @@ function AboutMe() {
         justifyContent: 'center',
       }}>
             <div style={styles.imagecard}>
-                <img src="../public/python.png" alt="Python" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/public/python.png" alt="Python" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="../public/C.png" alt="C" style={{width: '85%', borderRadius:'10px', alignItems:'center',
+                <img src="/public/C.png" alt="C" style={{width: '85%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="../public/javascript.png" alt="JavaScript" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/public/javascript.png" alt="JavaScript" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="../public/HTML.png" alt="HTML" style={{width: '85%', borderRadius:'10px', alignItems:'center', marginTop:'10px',
+                <img src="/public/HTML.png" alt="HTML" style={{width: '85%', borderRadius:'10px', alignItems:'center', marginTop:'10px',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="../public/Java.png" alt="Java" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/public/Java.png" alt="Java" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="../public/Node_express.png" alt="Node+Express" style={{width: '100%', borderRadius:'10px', alignItems:'center', marginTop: '20px',
+                <img src="/public/Node_express.png" alt="Node+Express" style={{width: '100%', borderRadius:'10px', alignItems:'center', marginTop: '20px',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="../public/React.png" alt="React" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/public/React.png" alt="React" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="../public/css.png" alt="css" style={{width: '60%', borderRadius:'10px', alignItems:'center', marginTop: '10px',
+                <img src="/public/css.png" alt="css" style={{width: '60%', borderRadius:'10px', alignItems:'center', marginTop: '10px',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="../public/mysql.png" alt="SQL" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/public/mysql.png" alt="SQL" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="../public/github.png" alt="github" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/public/github.png" alt="github" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="../public/git.png" alt="git" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/public/git.png" alt="git" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="../public/vscode.png" alt="vscode" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/public/vscode.png" alt="vscode" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="../public/OCaml.png" alt="OCaml" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/public/OCaml.png" alt="OCaml" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="../public/assembly.png" alt="assembly" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/public/assembly.png" alt="assembly" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="../public/docker.png" alt="docker" style={{width: '100%', borderRadius:'10px', alignItems:'center',
+                <img src="/public/docker.png" alt="docker" style={{width: '100%', borderRadius:'10px', alignItems:'center',
                 objectFit:'cover'
                 }}/>
             </div>
             <div style={styles.imagecard}>
-                <img src="../public/microsoft.png" alt="microsoft" style={{width: '70%', borderRadius:'10px', alignItems:'center', marginTop: '10px',
+                <img src="/public/microsoft.png" alt="microsoft" style={{width: '70%', borderRadius:'10px', alignItems:'center', marginTop: '10px',
                 objectFit:'cover'
                 }}/>
             </div>
@@ -162,7 +162,7 @@ const styles = {
     background:
       "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
     color: '#333',
-    padding: '80px',
+    padding: '80px 0px',
     marginTop: '0',
     textAlign: 'center',
   },

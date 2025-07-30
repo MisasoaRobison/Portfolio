@@ -6,7 +6,7 @@ function Home() {
       <div style={styles.container}>
         {/* Colonne image */}
         <img
-          src="../public/welcome1.jpg" // Remplace par ton image
+          src="/public/welcome1.jpg" // Remplace par ton image
           alt="Welcome"
           style={styles.image}
         />
