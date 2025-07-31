@@ -11,27 +11,27 @@ function Navbar() {
         <li><Link to="/myprojects" style={styles.a}>Projects</Link></li>
         <li><Link to="/cv" style={styles.a}>CV</Link></li>
       </ul>
-      <style>
+            <style>
         {`
           @media (max-width: 700px) {
             .navbar-ul {
               flex-direction: column !important;
               gap: 0 !important;
-              align-items: flex-start !important;
-              width: auto !important;
+              align-items: stretch !important;
+              width: 100vw !important;
               min-width: 0 !important;
               max-width: 100vw !important;
               padding: 0 !important;
               margin: 0 auto !important;
             }
             .navbar-ul li {
-              width: auto !important;
+              width: 100vw !important;
               min-width: 0 !important;
               max-width: 100vw !important;
-              text-align: left !important;
+              text-align: center !important;
               border-bottom: 1px solid rgba(0,0,0,0.08);
-              padding-left: 1.5rem;
-              padding-right: 1.5rem;
+              padding-left: 0;
+              padding-right: 0;
               box-sizing: border-box;
             }
             .navbar-ul li:last-child {
