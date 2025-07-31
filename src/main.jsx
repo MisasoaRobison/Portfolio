@@ -1,12 +1,10 @@
-// index.js ou main.jsx
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
-import { HashRouter } from "react-router-dom";
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
 
-ReactDOM.render(
-  <HashRouter basename='/Portfolio'>
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
     <App />
-  </HashRouter>,
-  document.getElementById("root")
-);
+  </StrictMode>,
+)
