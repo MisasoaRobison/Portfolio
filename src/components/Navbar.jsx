@@ -4,13 +4,34 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <nav style={styles.navbar}>
-      <ul style={styles.ul}>
+      <ul style={styles.ul} className="navbar-ul">
         <li><Link to="/" style={styles.a}>Home</Link></li>
         <li><Link to="/aboutme" style={styles.a}>About Me</Link></li>
         <li><Link to="/mystudies" style={styles.a}>Studies</Link></li>
         <li><Link to="/myprojects" style={styles.a}>Projects</Link></li>
         <li><Link to="/cv" style={styles.a}>CV</Link></li>
       </ul>
+      <style>
+        {`
+          @media (max-width: 700px) {
+            .navbar-ul {
+              flex-direction: column !important;
+              gap: 0 !important;
+              align-items: stretch !important;
+              width: 100vw !important;
+              padding: 0 !important;
+            }
+            .navbar-ul li {
+              width: 100vw !important;
+              text-align: center !important;
+              border-bottom: 1px solid rgba(0,0,0,0.08);
+            }
+            .navbar-ul li:last-child {
+              border-bottom: none;
+            }
+          }
+        `}
+      </style>
     </nav>
   );
 }

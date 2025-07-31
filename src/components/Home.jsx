@@ -26,13 +26,13 @@ function Home() {
           </p>
           <ul style={styles.list}>
             <li>
-              <strong style={{fontFamily: 'cursive'}}>Email:</strong>{" "}
+              <strong style={{ fontFamily: 'cursive' }}>Email:</strong>{" "}
               <a href="mailto:misasoaa.robison@gmail.com" style={styles.link}>
                 misasoaa.robison@gmail.com
               </a>
             </li>
             <li>
-              <strong style={{fontFamily: 'cursive'}}>GitHub:</strong>{" "}
+              <strong style={{ fontFamily: 'cursive' }}>GitHub:</strong>{" "}
               <a
                 href="https://github.com/MisasoaRobison"
                 style={styles.link}
@@ -43,7 +43,7 @@ function Home() {
               </a>
             </li>
             <li>
-              <strong style={{fontFamily: 'cursive'}}>LinkedIn:</strong>{" "}
+              <strong style={{ fontFamily: 'cursive' }}>LinkedIn:</strong>{" "}
               <a
                 href="https://www.linkedin.com/in/misasoa-robison-6494812a2/"
                 style={styles.link}
@@ -70,7 +70,8 @@ function Home() {
           }
           @media (max-width: 700px) {
             #home .container {
-              display: block !important;
+              display: flex !important;
+              flex-direction: column !important;
               padding: 0 !important;
               max-width: 100vw !important;
             }
