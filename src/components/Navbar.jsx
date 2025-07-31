@@ -18,7 +18,7 @@ function Navbar() {
 const styles = {
   navbar: {
     background: "linear-gradient(135deg,rgb(13, 153, 212),rgb(110, 132, 230),rgb(58, 60, 197))",
-    padding: '1rem',
+    padding: '1rem 0',
     position: 'sticky',
     top: 0,
     zIndex: 999,
@@ -37,6 +37,8 @@ const styles = {
     textDecoration: 'none',
     fontWeight: 'bold',
     fontFamily: 'cursive',
+    fontSize: '1.2rem',
+    transition: 'color 0.3s',
   },
 };
 

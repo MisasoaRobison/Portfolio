@@ -4,14 +4,11 @@ function Home() {
   return (
     <section id="home" style={styles.home}>
       <div style={styles.container}>
-        {/* Colonne image */}
         <img
-          src="/Portfolio/welcome1.jpg" // Remplace par ton image
+          src="/Portfolio/welcome1.jpg"
           alt="Welcome"
           style={styles.image}
         />
-
-        {/* Colonne texte */}
         <div style={styles.textSection}>
           <h1 style={styles.h1}>Hello World</h1>
           <h2 style={styles.h2}>Welcome to my website</h2>
@@ -27,7 +24,6 @@ function Home() {
           <p style={styles.p}>
             I'm always curious about the technologies used in IT and I'm determined to keep learning.
           </p>
-
           <ul style={styles.list}>
             <li>
               <strong style={{fontFamily: 'cursive'}}>Email:</strong>{" "}
@@ -60,6 +56,37 @@ function Home() {
           </ul>
         </div>
       </div>
+      <style>
+        {`
+          html, body {
+            min-height: 100vh;
+            min-width: 100vw;
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+          }
+          @media (max-width: 700px) {
+            #home .container {
+              display: block !important;
+              padding: 0 !important;
+              max-width: 100vw !important;
+            }
+            #home img {
+              margin-bottom: 24px;
+              width: 100vw !important;
+              max-width: 100vw !important;
+              border-radius: 0 !important;
+            }
+            #home div[style*="textAlign: left"] {
+              text-align: center !important;
+              padding: 0 8px;
+            }
+          }
+        `}
+      </style>
     </section>
   );
 }
@@ -70,9 +97,14 @@ const styles = {
     color: "#fff",
     padding: "80px 20px",
     textAlign: "center",
-    minHeight: "75vh",
+    minHeight: "100vh",
+    minWidth: "100vw",
+    width: "100vw",
+    height: "100vh",
     display: "flex",
     fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+    boxSizing: "border-box",
+    overflowX: "hidden",
   },
   container: {
     display: "grid",
