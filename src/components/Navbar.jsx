@@ -46,13 +46,16 @@ function Navbar() {
 
 const styles = {
   navbar: {
-    background: "rgba(255, 255, 255, 0.18)", // blanc très transparent
+    background: "rgba(32, 58, 100, 0.55)", // fond sombre et transparent
     padding: '1rem 0',
-    position: 'sticky',
+    position: 'relative',
     top: 0,
+    left: 0,
+    width: '100vw', // couvre toute la largeur de l'écran
+    minWidth: '100vw',
     zIndex: 999,
     boxShadow: '0 2px 4px rgba(0,0,0,0.08)',
-    backdropFilter: 'blur(12px)', // flou plus marqué
+    backdropFilter: 'blur(12px)',
     WebkitBackdropFilter: 'blur(12px)',
   },
   ul: {

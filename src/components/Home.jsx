@@ -3,12 +3,14 @@ import React from "react";
 function Home() {
   return (
     <section id="home" style={styles.home}>
-      <div style={styles.container}>
-        <img
-          src="/Portfolio/welcome1.jpg"
-          alt="Welcome"
-          style={styles.image}
-        />
+      <div className="home-container" style={styles.container}>
+        <div style={styles.imageWrapper}>
+          <img
+            src="/Portfolio/welcome1.jpg"
+            alt="Welcome"
+            style={styles.image}
+          />
+        </div>
         <div style={styles.textSection}>
           <h1 style={styles.h1}>Hello World</h1>
           <h2 style={styles.h2}>Welcome to my website</h2>
@@ -58,33 +60,28 @@ function Home() {
       </div>
       <style>
         {`
-          html, body {
-            min-height: 100vh;
-            min-width: 100vw;
-            width: 100vw;
-            height: 100vh;
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-          }
-          @media (max-width: 700px) {
-            #home [style*="display: grid"] {
+          @media (max-width: 1000px) {
+            .home-container {
               display: flex !important;
               flex-direction: column !important;
-              width: 100vw !important;
-              max-width: 100vw !important;
-              padding: 0 !important;
+              gap: 2rem !important;
+              width: 94vw !important;
+              max-width: 98vw !important;
+              padding: 0 2vw !important;
             }
-            #home img {
-              margin-bottom: 24px;
-              width: 100vw !important;
+            .home-container > div {
+              width: 100% !important;
+              max-width: 100vw !important;
+            }
+            .home-container img {
+              width: 100% !important;
               max-width: 100vw !important;
               border-radius: 0 !important;
+              margin-bottom: 1.2rem;
             }
-            #home div[style*="textAlign: left"] {
+            .home-container [style*="textAlign: left"] {
               text-align: center !important;
-              padding: 0 8px;
+              padding: 0 4vw;
             }
           }
         `}
@@ -97,58 +94,71 @@ const styles = {
   home: {
     background: "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
     color: "#fff",
-    padding: "80px 20px",
+    padding: "60px 0",
     textAlign: "center",
     minHeight: "100vh",
-    minWidth: "100vw",
-    width: "100vw",
-    height: "100vh",
-    display: "flex",
+    minWidth: "0",
+    width: "100%",
     fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
     boxSizing: "border-box",
     overflowX: "hidden",
+    display: "flex",
+    justifyContent: "center",
   },
   container: {
     display: "grid",
-    gridTemplateColumns: "1fr 1fr",
+    gridTemplateColumns: "1.2fr 1.8fr",
     alignItems: "center",
+    width: "80vw",
+    maxWidth: 1100,
+    gap: "48px",
+    background: "rgba(0,0,0,0.10)",
+    borderRadius: 24,
+    boxShadow: "0 2px 12px rgba(0,0,0,0.08)",
+    padding: "40px 40px",
+  },
+  imageWrapper: {
     width: "100%",
-    gap: "40px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
   },
   image: {
     width: "100%",
     borderRadius: "20px",
     boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
+    maxWidth: "420px",
+    height: "auto",
   },
   textSection: {
     textAlign: "left",
   },
   h1: {
     fontFamily: '"Dancing Script", cursive',
-    fontSize: "3rem",
-    marginBottom: "0.5rem",
+    fontSize: "3.2rem",
+    marginBottom: "0.7rem",
     fontStyle: "italic",
     textAlign: "center",
   },
   h2: {
     fontFamily: "cursive",
-    fontSize: "1.8rem",
+    fontSize: "2rem",
     color: "#a9cbd9",
     textAlign: "center",
     fontStyle: "italic",
-    marginBottom: "1.5rem",
+    marginBottom: "1.7rem",
   },
   p: {
     fontFamily: "cursive",
-    fontSize: "1.1rem",
-    marginBottom: "1rem",
-    lineHeight: "1.6",
+    fontSize: "1.18rem",
+    marginBottom: "1.2rem",
+    lineHeight: "1.7",
   },
   list: {
     listStyle: "none",
     padding: 0,
     lineHeight: "2rem",
-    fontSize: "1.1rem",
+    fontSize: "1.13rem",
   },
   link: {
     color: "#00bfff",
