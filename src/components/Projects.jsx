@@ -4,7 +4,6 @@ function Projects() {
   return (
     <section id="projects" style={styles.section}>
       <div style={styles.wrapper}>
-        <h1 style={styles.h1}>My Projects</h1>
         <div style={styles.projectList}>
           <div style={styles.card}>
             <h3 style={styles.cardTitle}>Full Stack Project</h3>
