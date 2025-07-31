@@ -17,14 +17,22 @@ function Navbar() {
             .navbar-ul {
               flex-direction: column !important;
               gap: 0 !important;
-              align-items: stretch !important;
-              width: 100vw !important;
+              align-items: flex-start !important;
+              width: auto !important;
+              min-width: 0 !important;
+              max-width: 100vw !important;
               padding: 0 !important;
+              margin: 0 auto !important;
             }
             .navbar-ul li {
-              width: 100vw !important;
-              text-align: center !important;
+              width: auto !important;
+              min-width: 0 !important;
+              max-width: 100vw !important;
+              text-align: left !important;
               border-bottom: 1px solid rgba(0,0,0,0.08);
+              padding-left: 1.5rem;
+              padding-right: 1.5rem;
+              box-sizing: border-box;
             }
             .navbar-ul li:last-child {
               border-bottom: none;
@@ -38,18 +46,20 @@ function Navbar() {
 
 const styles = {
   navbar: {
-    background: "linear-gradient(135deg,rgb(13, 153, 212),rgb(110, 132, 230),rgb(58, 60, 197))",
+    background: "rgba(255, 255, 255, 0.18)", // blanc très transparent
     padding: '1rem 0',
     position: 'sticky',
     top: 0,
     zIndex: 999,
-    boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+    boxShadow: '0 2px 4px rgba(0,0,0,0.08)',
+    backdropFilter: 'blur(12px)', // flou plus marqué
+    WebkitBackdropFilter: 'blur(12px)',
   },
   ul: {
     display: 'flex',
     justifyContent: 'center',
     listStyle: 'none',
-    gap: '15rem',
+    gap: '4rem',
     margin: 0,
     padding: 0,
   },
@@ -60,6 +70,9 @@ const styles = {
     fontFamily: 'cursive',
     fontSize: '1.2rem',
     transition: 'color 0.3s',
+    display: 'block',
+    padding: '12px 0',
+    background: 'transparent',
   },
 };
 

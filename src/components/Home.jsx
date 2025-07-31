@@ -18,7 +18,7 @@ function Home() {
             in Reliable Information Systems and Data Intelligence. I am passionate about the world of IT.
           </p>
           <p style={styles.p}>
-            An application, software, or website is not an unchangeable product. It can be optimized again and again
+            An application, software, or website is not an unchangeable product. It can be optimized again and again.
             That's what I love about this field.
           </p>
           <p style={styles.p}>
@@ -69,11 +69,12 @@ function Home() {
             background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
           }
           @media (max-width: 700px) {
-            #home .container {
+            #home [style*="display: grid"] {
               display: flex !important;
               flex-direction: column !important;
-              padding: 0 !important;
+              width: 100vw !important;
               max-width: 100vw !important;
+              padding: 0 !important;
             }
             #home img {
               margin-bottom: 24px;
