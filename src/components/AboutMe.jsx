@@ -163,13 +163,13 @@ const styles = {
     textAlign: 'center',
   },
   cardText: {
-    fontFamily: 'cursive',
+    fontFamily: '"roboto slab", sans-serif',
     textAlign: 'justify',
     color: 'white',
     fontSize: '1rem',
   },
   ambitionText: {
-    fontFamily: 'cursive',
+    fontFamily: '"roboto slab", sans-serif',
     textAlign: 'justify',
     color: 'white',
     margin: '16px 0',

@@ -185,7 +185,7 @@ const styles = {
     padding: '0 4px',
     borderRadius: '50px',
     color: 'white',
-    fontFamily: '"Playfair Display", cursive',
+    fontFamily: '"Roboto Slab", sans-serif',
     textAlign: 'center',
     textShadow: '0 1px 4px #000',
   },
