@@ -134,14 +134,14 @@ const styles = {
     textAlign: "left",
   },
   h1: {
-    fontFamily: '"Dancing Script", cursive',
+    fontFamily: '"Roboto Slab", sans-serif',
     fontSize: "3.2rem",
     marginBottom: "0.7rem",
     fontStyle: "italic",
     textAlign: "center",
   },
   h2: {
-    fontFamily: "cursive",
+    fontFamily: '"Roboto slab", sans-serif',
     fontSize: "2rem",
     color: "#a9cbd9",
     textAlign: "center",
@@ -149,7 +149,7 @@ const styles = {
     marginBottom: "1.7rem",
   },
   p: {
-    fontFamily: "cursive",
+    fontFamily: '"Roboto slab", sans-serif',
     fontSize: "1.18rem",
     marginBottom: "1.2rem",
     lineHeight: "1.7",

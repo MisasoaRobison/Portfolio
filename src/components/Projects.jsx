@@ -65,7 +65,7 @@ const styles = {
     boxSizing: "border-box",
   },
   h1: {
-    fontFamily: '"Raleway", cursive',
+    fontFamily: '"Roboto Slab", sans-serif',
     background: 'linear-gradient(90deg,rgb(0, 0, 0),rgb(213, 255, 97))',
     padding: '0 4px',
     borderRadius: '50px',
@@ -98,7 +98,7 @@ const styles = {
   },
   cardTitle: {
     color: '#ffe066',
-    fontFamily: '"Raleway", cursive',
+    fontFamily: '"Roboto Slab", sans-serif',
     fontWeight: 'bold',
     marginBottom: 12,
     fontSize: '1.2rem',
@@ -106,7 +106,7 @@ const styles = {
     textAlign: 'center',
   },
   cardText: {
-    fontFamily: 'cursive',
+    fontFamily: '"Roboto Slab", sans-serif',
     textAlign: 'justify',
     color: 'white',
     fontSize: '1.08rem',
