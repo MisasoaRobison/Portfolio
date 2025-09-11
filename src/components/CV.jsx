@@ -7,7 +7,7 @@ function CV() {
 
         <div style={styles.cvContainer}>
           <iframe
-            src="/Portfolio/Misasoa_Robison_CV_Alternance.pdf"
+            src="/Portfolio/Misasoa_ROBISON_CV_Alternance.pdf"
             title="My CV"
             width="100%"
             height="100%"
